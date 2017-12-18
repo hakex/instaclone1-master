@@ -1,0 +1,202 @@
+.header_container {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color: white:
+	height: 77px;
+	border-bottom: #E6E6E6 solid 1px; 
+
+	padding-left: 200px;
+	padding-right: 200px;
+
+
+}
+.search_container{
+	display: flex;
+}
+.search_content{
+	width: 200px;
+	height: 27px;
+	background-color: #F9F9F9; 
+	border-radius: 4px;
+	border: 1px solid: #DBDBDB;
+	/*padding-left: 30px;*/
+	text-align: center;
+}
+.fa-search{
+	position: absolute;
+	margin-top: 6px;
+	font-size: 20px; 
+	padding-left: 10px;
+	color: #BABBBE;
+}
+.explore_link{
+	font-size: 20px;
+	color: black;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+.body_container{
+	box-sizing: border-box;
+	/*display: flex;*/
+	justify-content: center;
+	/*display: flex;*/
+
+	max-width: 937px;
+	max-width: 100%;
+	border-bottom: #E6E6E6 solid 1px; 
+	
+	padding-top: 20px;
+	padding-left: 200px;
+	padding-right: 200px;
+	background-color: #FAFAFA;
+
+}
+.profile_info_container_master{
+	display: flex;
+	justify-content: center;
+	max-width: 90%;
+	max-height: 257px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*margin-top: 30px;*/
+	margin-bottom: 30px;
+	border-bottom: #E6E6E6 solid 1px; 
+}
+.my_profile_photo{
+	max-width: 287px;
+	max-height: 152px;
+}
+
+.profile_img{
+	max-width: 145px;
+	height: 145px;
+	border-radius: 50%;
+}
+.profile_info_container{
+	padding-left: 150px;
+}
+.profile_main{
+	display: flex;
+}
+.profile_setting{
+	font-size: 13px;
+	margin-left: 13px; 
+	margin-top: 27px;
+}
+.glyphicon-cog{
+	font-size: 20px;
+	margin-left: 10px; 
+	margin-top: 27px;
+}
+.follow_info_container{
+	display: flex;
+	margin-top: 10px;
+	margin-left: -40px;
+	
+}
+.post_container{
+	width: 120px;
+	height: 18px;
+	/*margin-left: 25px; */
+	/*padding-left: 20px;*/
+}
+.follower_number{
+	font-size: 20px;
+	
+}
+.nickname_container{
+	margin-top: 30px;
+}
+.nickname{
+	font-size: 20px;
+}
+.post_save_nevigator{
+	display: flex;
+	justify-content: center;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+
+}
+.ad_container{
+	height: 460px;
+	width: 100%;
+	background-color: #FAFAFA;
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+.ad_img_container{
+	height: 150px;
+	padding-bottom: -10px;
+}
+.ad_img1{
+	height: 140px;
+
+}
+.ad2_info{
+	background-color: white;
+	text-align: center; 
+	vertical-align: middle;
+	height: 440px;
+	/*padding-left: 100px;*/
+	/*padding-top: 100px;*/
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.ad_message{
+	/*display: flex;*/
+	display: inline-block;
+	justify-content:center;
+    align-items:center;
+    vertical-align: middle;
+
+    padding-top: 150px;
+
+}
+.first_ad_message{
+	font-size: 20px;
+	font-weight: bold;
+}
+.second_ad_message{
+	font-size: 15px;
+	padding-top: 7px;
+}
+.ios_and_icon_container{
+	padding-top: 10px;
+}
+.post_font{
+	font-size: 17px;
+	margin-left: 10px;
+	margin-right: 10px;
+	/*margin-bottom: 10px;*/
+}
+.footer_container{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	height: 190px;
+	width: 100%;
+	background-color: #FAFAFA;
+}
+.footer_list{
+	text-align: center;
+	display: flex;
+	padding-top: 40px;
+}
+.instagram_info {
+	font-size: 15px;
+	/*padding-left: 20px;*/
+	margin-left: 20px;
+
+}
+.footer-content{
+	color: #003598;
+}
+
+

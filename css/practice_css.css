@@ -1,0 +1,39 @@
+.box_container{
+	/*가로로 보여주기*/
+	display: flex;
+	/*justify-content: space-between;*/
+	/*flex-start, flex-end, space-between*/
+	/*justify-content: space-between;*/
+
+
+	/*수직으로 보여줌*/
+	/*display: inline;*/
+}
+.bluebox{
+	box-sizing: border-box;
+	/*box-sizing: content-box;*/
+	position: absolute;
+	background-color: blue; 
+	color: black;
+	width: 100px;
+	height: 100px;
+}
+.greenbox{
+	box-sizing: border-box;
+	
+	position: relative;
+	top: 30px;
+	background-color: green;
+	color: black;
+	width: 100px;
+	height: 100px;
+}
+.redbox{
+	box-sizing: border-box;
+
+	position: relative;
+	background-color: red;
+	color: black;	
+	width: 100px;
+	height: 100px;	
+}
